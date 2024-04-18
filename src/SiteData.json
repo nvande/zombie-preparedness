@@ -1,0 +1,31 @@
+{
+    "siteLogo": "/assets/custom/img/usdsd_logo.png",
+    "socialLinks": [
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com/zombiepreparedness",
+        "iconSrc": "/assets/uswds/img/usa-icons/facebook.svg"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/zombieprep101",
+        "iconSrc": "/assets/uswds/img/usa-icons/twitter.svg"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://youtube.com/zombiepreparednesschannel",
+        "iconSrc": "/assets/uswds/img/usa-icons/youtube.svg"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com/zombie_preparedness",
+        "iconSrc": "/assets/uswds/img/usa-icons/instagram.svg"
+      },
+      {
+        "label": "RSS Feed",
+        "href": "https://zombiepreparedness.org/rss",
+        "iconSrc": "/assets/uswds/img/usa-icons/rss_feed.svg"
+      }
+    ]
+  }
+  
