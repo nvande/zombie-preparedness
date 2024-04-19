@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.2049d724.css",
-    "main.js": "./static/js/main.57c3153b.js",
+    "main.js": "./static/js/main.9d8ae03f.js",
     "static/media/usdsd_logo.png": "./static/media/usdsd_logo.9bf584dd93d7dde2c9f8.png",
     "static/media/hero.jpg": "./static/media/hero.fdfa1c365bb151847b2c.jpg",
     "static/media/Latin-Merriweather-Regular.woff2": "./static/media/Latin-Merriweather-Regular.a30c1b8fcb759e9fe728.woff2",
@@ -60,10 +60,10 @@
     "static/media/add.svg": "./static/media/add.15fb83c243810d04ccca.svg",
     "static/media/remove.svg": "./static/media/remove.4f51f2cc5b62b5d02abe.svg",
     "main.2049d724.css.map": "./static/css/main.2049d724.css.map",
-    "main.57c3153b.js.map": "./static/js/main.57c3153b.js.map"
+    "main.9d8ae03f.js.map": "./static/js/main.9d8ae03f.js.map"
   },
   "entrypoints": [
     "static/css/main.2049d724.css",
-    "static/js/main.57c3153b.js"
+    "static/js/main.9d8ae03f.js"
   ]
 }
