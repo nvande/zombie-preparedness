@@ -1,9 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.2049d724.css",
-    "main.js": "./static/js/main.9d8ae03f.js",
+    "main.js": "./static/js/main.2c0f2d82.js",
+    "static/media/workshop.jpg": "./static/media/workshop.69037de865d8cfc4d602.jpg",
+    "static/media/farmhouse.jpg": "./static/media/farmhouse.02a85507c5849b8de38f.jpg",
+    "static/media/drill.jpg": "./static/media/drill.3ef03ffac5c438afb0a4.jpg",
+    "static/media/taskforce.jpg": "./static/media/taskforce.ebff90c3c44edb2a10f3.jpg",
     "static/media/usdsd_logo.png": "./static/media/usdsd_logo.9bf584dd93d7dde2c9f8.png",
     "static/media/hero.jpg": "./static/media/hero.fdfa1c365bb151847b2c.jpg",
+    "static/media/informed.png": "./static/media/informed.e965294267b821e2ec9e.png",
+    "static/media/plan.png": "./static/media/plan.5a542e99d05c15073101.png",
+    "static/media/reinforce.png": "./static/media/reinforce.5d66621438f5843430f7.png",
+    "static/media/supplies.png": "./static/media/supplies.b5fef44be22befe4e631.png",
     "static/media/Latin-Merriweather-Regular.woff2": "./static/media/Latin-Merriweather-Regular.a30c1b8fcb759e9fe728.woff2",
     "static/media/Latin-Merriweather-Bold.woff2": "./static/media/Latin-Merriweather-Bold.9caa42f21e4ae090b755.woff2",
     "static/media/Latin-Merriweather-Light.woff2": "./static/media/Latin-Merriweather-Light.f347d9834a5feacbcefb.woff2",
@@ -34,6 +42,7 @@
     "static/media/correct8.svg": "./static/media/correct8.eac85396da602db01ea3.svg",
     "static/media/file-video.svg": "./static/media/file-video.15490fa6d64ebfb4f314.svg",
     "static/media/youtube.svg": "./static/media/youtube.8194a975b3541a98a72fe250bd7324f2.svg",
+    "static/media/search--white.svg": "./static/media/search--white.2b66fb48aef152755649d41e07a8f1dc.svg",
     "static/media/x.svg": "./static/media/x.0839241c619726f86d551e79a0db901a.svg",
     "static/media/search.svg": "./static/media/search.9eb64800a329d1571f77.svg",
     "static/media/facebook.svg": "./static/media/facebook.df0eb8125abbd4f3bb041de109447fdb.svg",
@@ -46,7 +55,7 @@
     "static/media/check_circle.svg": "./static/media/check_circle.923b3f2b329f1d5dafd1.svg",
     "static/media/calendar_today.svg": "./static/media/calendar_today.a1af7eb3d190d96bab4f.svg",
     "static/media/check--blue-60v.svg": "./static/media/check--blue-60v.0cd5697e7b293b7a2666.svg",
-    "static/media/close.svg": "./static/media/close.e950e71a69cf4464f585.svg",
+    "static/media/close.svg": "./static/media/close.e950e71a69cf4464f585c220a034a0d0.svg",
     "static/media/error.svg": "./static/media/error.3bb67f155055c78cdcc3.svg",
     "static/media/info.svg": "./static/media/info.dc35b14c3402e2a12132.svg",
     "static/media/navigate_far_next.svg": "./static/media/navigate_far_next.d2401ba1e153d4c7c1be.svg",
@@ -60,10 +69,10 @@
     "static/media/add.svg": "./static/media/add.15fb83c243810d04ccca.svg",
     "static/media/remove.svg": "./static/media/remove.4f51f2cc5b62b5d02abe.svg",
     "main.2049d724.css.map": "./static/css/main.2049d724.css.map",
-    "main.9d8ae03f.js.map": "./static/js/main.9d8ae03f.js.map"
+    "main.2c0f2d82.js.map": "./static/js/main.2c0f2d82.js.map"
   },
   "entrypoints": [
     "static/css/main.2049d724.css",
-    "static/js/main.9d8ae03f.js"
+    "static/js/main.2c0f2d82.js"
   ]
 }
