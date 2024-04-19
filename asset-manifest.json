@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zombie-preparedness/static/css/main.4471ccc0.css",
-    "main.js": "/zombie-preparedness/static/js/main.ec7d255a.js",
+    "main.js": "/zombie-preparedness/static/js/main.35da72fd.js",
     "static/media/hero.jpg": "/zombie-preparedness/static/media/hero.fdfa1c365bb151847b2c.jpg",
     "static/media/Latin-Merriweather-Regular.woff2": "/zombie-preparedness/static/media/Latin-Merriweather-Regular.a30c1b8fcb759e9fe728.woff2",
     "static/media/Latin-Merriweather-Bold.woff2": "/zombie-preparedness/static/media/Latin-Merriweather-Bold.9caa42f21e4ae090b755.woff2",
@@ -54,10 +54,10 @@
     "static/media/add.svg": "/zombie-preparedness/static/media/add.15fb83c243810d04ccca.svg",
     "static/media/remove.svg": "/zombie-preparedness/static/media/remove.4f51f2cc5b62b5d02abe.svg",
     "main.4471ccc0.css.map": "/zombie-preparedness/static/css/main.4471ccc0.css.map",
-    "main.ec7d255a.js.map": "/zombie-preparedness/static/js/main.ec7d255a.js.map"
+    "main.35da72fd.js.map": "/zombie-preparedness/static/js/main.35da72fd.js.map"
   },
   "entrypoints": [
     "static/css/main.4471ccc0.css",
-    "static/js/main.ec7d255a.js"
+    "static/js/main.35da72fd.js"
   ]
 }
