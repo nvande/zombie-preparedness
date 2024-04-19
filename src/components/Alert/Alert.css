@@ -1,3 +1,7 @@
+.usa-alert__text a {
+    color: white;
+}
+
 .usa-alert__text a:visited {
     color: wheat!important;
 }

@@ -6,7 +6,7 @@ import PageTitle from "../components/Typography/PageTitle";
 import Section from "../components/Section/Section";
 import Signup from "../components/Signup/Signup";
 
-import pageData from "./SignuppageData.json";
+import pageData from "./SignuppageData";
 
 import { HeroSectionProps } from "../types/types";
 

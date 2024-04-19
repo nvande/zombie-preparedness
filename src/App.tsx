@@ -3,7 +3,7 @@ import React, { useLayoutEffect } from "react";
 import "./assets/uswds/css/styles.css";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -33,9 +33,9 @@ const App: React.FC = () => {
       <Router>
         <Wrapper>
           <Routes>
-            <Route path={'/'} element={<Homepage />} />
-            <Route path={process.env.REACT_APP_INFO_URL} element={<Preparedness101 />} />
-            <Route path={process.env.REACT_APP_SIGNUP_URL} element={<Signuppage />} />
+            <Route path="/" element={<Homepage />} />
+            <Route path="/preparedness101" element={<Preparedness101 />} />
+            <Route path="/signup" element={<Signuppage />} />
           </Routes>
         </Wrapper>
       </Router>

@@ -4,7 +4,7 @@ import Section from "../components/Section/Section";
 import HeroSection from "../components/Section/HeroSection";
 import GraphicItemSection from "../components/Section/GraphicItemSection";
 
-import pageData from './HomepageData.json';
+import pageData from "./HomepageData";
 
 import {
   HeroSectionProps,

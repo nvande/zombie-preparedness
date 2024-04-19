@@ -4,7 +4,7 @@ import Alert from "../Alert/Alert";
 import Header from "./Header";
 import Footer from "./Footer";
 
-import siteData from "../../SiteData.json";
+import siteData from "../../SiteData";
 interface Props {
   children: ReactNode;
 }

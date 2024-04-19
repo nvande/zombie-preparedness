@@ -54,7 +54,7 @@ const Footer: React.FC<FooterProps> = ({
                     <a className="usa-social-link" href={social.href} data-testid={`social-${social.label}`}>
                       <img
                         className="usa-social-link__icon"
-                        src={social.iconSrc}
+                        src={social.icon}
                         alt={social.label}
                       />
                     </a>

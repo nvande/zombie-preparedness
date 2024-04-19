@@ -1,4 +1,6 @@
-export default {
+import images from "../ImageData";
+
+const pageData = {
   "pageInfo": {
     "title": "Zombie Preparedness 101",
     "content": "Explore the essentials of surviving a zombie apocalypse with our comprehensive guide, starting with a detailed overview of the history and cultural impact of zombies, from ancient folklore to modern cinema. Learn crucial survival strategies including making an emergency plan, gathering supplies, and joining your community's Zombie Task Force. Understand the origins and transmission of zombie infections to better prepare for and respond to the reanimated threat.",
@@ -7,30 +9,30 @@ export default {
     "author": "Ali S. Khan",
     "attribution": "Centers for Disease Control and Prevention",
     "copyright": "Public Domain / A derivative from the original work",
-    "backgroundImage": "/assets/custom/img/hero/drill.jpg"
+    "backgroundImage": images.hero.drill
   },
   "pageSummaryBox": {
     "heading": "On this page",
     "items": [
       {
-        "linkId": "EmergencyContacts",
+        "link": "/#/preparedness101#EmergencyContacts",
         "beforeText": "Know your community’s ",
         "textLink": "Emergency Contacts"
       },
       {
-        "linkId": "EmergencyPlan",
+        "link": "/#/preparedness101#EmergencyPlan",
         "beforeText": "If you are under a Zombie Apocalypse Warning, make an ",
         "textLink": "Emergency Plan",
         "afterText": " right away."
       },
       {
-        "linkId": "EmergencySupplies",
+        "link": "/#/preparedness101#EmergencySupplies",
         "beforeText": "Gather ",
         "textLink": "Emergency Supplies",
         "afterText": " for your home and your car."
       },
       {
-        "linkId": "TaskForce",
+        "link": "/#/preparedness101#TaskForce",
         "beforeText": "Sign up for your community’s ",
         "textLink": "Zombie Task Force"
       }
@@ -186,9 +188,11 @@ export default {
     "buttons": [
       {
         "label": "Zombie Task Force Login",
-        "url": "/signup#create"
+        "url": "/#/signup#create"
       }
     ],
     "id": "TaskForce"
   }
 }
+
+export default pageData;

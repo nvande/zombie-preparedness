@@ -22,7 +22,7 @@ const SummaryBox: React.FC<SummaryBoxProps> = ({ heading, items }) => {
               {items.map((item, index) => (
                 <li key={index}>
                   <span>{item.beforeText}</span>
-                  <a className="usa-summary-box__link" href={`#${item.linkId}`}>
+                  <a className="usa-summary-box__link" href={item.link}>
                     {item.textLink}
                   </a>
                   <span>{item.afterText}</span>

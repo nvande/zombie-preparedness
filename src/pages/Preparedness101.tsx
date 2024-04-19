@@ -11,7 +11,7 @@ import IconList from "../components/List/IconList";
 import Collection from "../components/List/Collection";
 import ProcessList from "../components/List/ProcessList";
 
-import pageData from "./Preparedness101Data.json";
+import pageData from "./Preparedness101Data";
 
 import {
   HeroSectionProps,

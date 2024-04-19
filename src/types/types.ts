@@ -32,7 +32,7 @@ export interface HeaderProps {
 export type FooterLink = {
   label: string;
   href: string;
-  iconSrc?: string;
+  icon?: string;
 };
 
 export interface FooterProps {
@@ -91,7 +91,7 @@ export interface PageInfoProps {
 export interface SummaryBoxProps {
   heading: string;
   items: {
-    linkId: string;
+    link: string;
     beforeText: string;
     textLink: string;
     afterText?: string;

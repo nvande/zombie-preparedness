@@ -3,8 +3,8 @@ import { useLocation } from "react-router-dom";
 
 import { HeaderProps } from "../../types/types";
 
-const searchIconSrc = "../../assets/uswds/img/usa-icons-bg/search--white.svg";
-const closeIconSrc = "../../assets/uswds/img/material-icons/close.svg";
+const searchIconSrc = require("../../assets/uswds/img/usa-icons-bg/search--white.svg").default;
+const closeIconSrc = require("../../assets/uswds/img/material-icons/close.svg").default;
 
 const Header: React.FC<HeaderProps> = ({
   projectTitle,

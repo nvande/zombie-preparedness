@@ -1,13 +1,15 @@
-export default {
+import images from "../src/ImageData";
+
+const siteData = {
     "alert": {
         "heading": "Zombie Preparedness Alert in effect: ",
         "content": [
-            "[Ready emergency supplies](/preparedness101#EmergencySupplies)",
-            "[Prepare emergency plan](/preparedness101#EmergencyPlan)"
+            "[Ready emergency supplies](/#/preparedness101#EmergencySupplies)",
+            "[Prepare emergency plan](/#/preparedness101#EmergencyPlan)"
         ]
     },
     "title": "US Department of Supernatural Defense",
-    "logo": "../../assets/custom/img/usdsd_logo.png",
+    "logo": images.siteLogo,
     "sections": [
         {
             "label": "Home",
@@ -15,52 +17,52 @@ export default {
         },
         {
             "label": "Zombie Preparedness 101",
-            "link": "/preparedness101"
+            "link": "/#/preparedness101"
         },
         {
             "label": "Task Force Sign-up",
-            "link": "/signup"
+            "link": "/#/signup"
         }
     ],
     "primaryLinks:": [
         {
             "label": "Home",
-            "href": "/"
+            "href": "/#/"
         },
         {
             "label": "Zombie Preparedness 101",
-            "href": "/preparedness101"
+            "href": "/#/preparedness101"
         },
         {
             "label": "Task Force Sign-up",
-            "href": "/signup"
+            "href": "/#/signup"
         }
     ],
     "socialLinks": [
       {
         "label": "Facebook",
         "href": "https://facebook.com/zombiepreparedness",
-        "iconSrc": "../../assets/uswds/img/usa-icons/facebook.svg"
+        "icon": images.icon.facebook
       },
       {
         "label": "X",
         "href": "https://twitter.com/zombieprep101",
-        "iconSrc": "../../assets/uswds/img/usa-icons/x.svg"
+        "icon": images.icon.x
       },
       {
         "label": "YouTube",
         "href": "https://youtube.com/zombiepreparednesschannel",
-        "iconSrc": "../../assets/uswds/img/usa-icons/youtube.svg"
+        "icon": images.icon.youtube
       },
       {
         "label": "Instagram",
         "href": "https://instagram.com/zombie_preparedness",
-        "iconSrc": "../../assets/uswds/img/usa-icons/instagram.svg"
+        "icon": images.icon.instagram
       },
       {
         "label": "RSS Feed",
         "href": "https://zombiepreparedness.org/rss",
-        "iconSrc": "../../assets/uswds/img/usa-icons/rss_feed.svg"
+        "icon": images.icon.rss_feed
       }
     ],
     "contactData": {
@@ -83,3 +85,4 @@ export default {
     "disclaimer": "This site is based on ficticious information and is for demonstration purposes only."
   }
   
+export default siteData;

@@ -1,9 +1,11 @@
-export default {
+import images from "../ImageData";
+
+const pageData = {
   "pageInfo": {
     "title": "Task Force Sign-up",
     "content": "Want to get involved? Join the frontline in safeguarding our communities against the zombie threat. The Zombie Task Force is calling on EMR/EMT/Paramedics, Police Officers, Firefighters, and any vigilant citizens—particularly those with military experience—to help us respond more effectively to potential outbreaks. Your skills and dedication may be crucial in helping us understand, contain, and overcome reanimated threats.",
     "heading": "CDC Zombie Task Force - Create Account",
-    "backgroundImage": "../../assets/custom/img/hero/taskforce.jpg"
+    "backgroundImage": images.hero.taskforce
   },
   "form": {
     "id": "create",
@@ -71,3 +73,5 @@ export default {
     ]
   }
 }
+
+export default pageData;
