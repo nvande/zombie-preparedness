@@ -5,7 +5,7 @@
     "description": "Learn how to survive and thrive during a zombie apocalypse with our essential tips and resources.",
     "ctaLabel": "Learn More",
     "ctaLink": "/preparedness101",
-    "backgroundImage": "/assets/custom/img/hero/farmhouse.jpg",
+    "backgroundImage": "../../assets/custom/img/hero/farmhouse.jpg",
     "showcallout": true
   },
   "graphicItemSection": {
