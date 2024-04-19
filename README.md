@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Zombie Preparedness
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Zombie-preparedness is a React application built for demonstration purposes. It utilizes the U.S. Web Design System (USWDS) for design implementation. Other features include responsive design, JSON encoded page content with a markup preprocessor to allow for rapid changes to page content and structure, and near full test-coverage for the entire application.
 
-## Available Scripts
+
+## Getting started
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner.\
 
-### `npm run build`
+## Additional Improvements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If more time was available, here are some additional features that would have been worthwhile to explore:
+- An even more dynamic JSON page structure, so entire pages, and not just their content, can be built dynamically with pure JSON without needing to edit the page components themselves.
+- Working signup features (right now a dummy form is provided, but it cannot be submitted).
+- Multi-language support. Given the dynamic JSON structure, it should not be too difficult to translate page content into other languages and allow for swapping via the UI.
+- Addtional page content. Currently, only Homepage, Preparedness 101 page, and a Task Force Sign-up page are included. But more pages could have been added to provide more detailed information on zombie survival, zombie physiology, and resources to help invdividuals prepare.
+- A more unique brand identity. Currently, the site remains very close to the default recommended design for USWDS, but given the unique and grave nature of content explored in the site, a more unique brand design may be appropriate. This would help set aside the USDSD (US Department of Supernatural Defense) as a more singular element within the US Government which deals with the critical nature of supernatural threats in it's own unique way.
