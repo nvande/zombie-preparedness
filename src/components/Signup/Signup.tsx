@@ -30,7 +30,7 @@ const Signup: React.FC<SignupProps> = ({ formConfig, sidebarConfig, id }) => {
       {id && <Anchor id={id} />}
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-6">
-          <form className="usa-form">
+          <form className="usa-form maxw-full">
             {formConfig.fields.map((field) => (
               <div key={field.id}>
                 <label htmlFor={field.id} className="usa-label">
