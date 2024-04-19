@@ -1,42 +1,48 @@
 {
-    "heroSection": {
-      "heading": "Be prepared for upcoming reanimations",
-      "subheading": "Stay safe and sound on Z-Day",
-      "description": "Learn how to survive and thrive during a zombie apocalypse with our essential tips and resources.",
-      "ctaLabel": "Learn More",
-      "ctaLink": "/learn-more"
-    },
-    "graphicListItems": [
+  "heroSection": {
+    "heading": "Be prepared for upcoming reanimations",
+    "subheading": "Stay safe and sound on Z-Day",
+    "description": "Learn how to survive and thrive during a zombie apocalypse with our essential tips and resources.",
+    "ctaLabel": "Learn More",
+    "ctaLink": "/preparedness101",
+    "backgroundImage": "/assets/custom/img/hero/farmhouse.jpg",
+    "showcallout": true
+  },
+  "graphicItemSection": {
+    "items": [
       {
         "title": "Gather Supplies",
         "body": "Stock up on water, food, and first aid supplies. Ensure you have enough to last several days without access to additional resources.",
-        "imageUrl": "/assets/custom/img/supplies.png",
+        "imageUrl": "/assets/custom/img/icon/supplies.png",
         "imageAlt": "Supplies"
       },
       {
         "title": "Secure Your Home",
         "body": "Ensure your living space is fortified against the reanimated. Check all entries and exits, and reinforce doors and windows.",
-        "imageUrl": "/assets/custom/img/home-security.png",
-        "imageAlt": "Home Security"
+        "imageUrl": "/assets/custom/img/icon/home-improvement.png",
+        "imageAlt": "Home Improvement"
       },
       {
         "title": "Form a Plan",
         "body": "Plan your evacuation and safety measures with family. Identify local shelters and multiple escape routes from your area.",
-        "imageUrl": "/assets/custom/img/plan.png",
+        "imageUrl": "/assets/custom/img/icon/plan.png",
         "imageAlt": "Planning"
       },
       {
         "title": "Stay Informed",
         "body": "Keep up-to-date with the latest zombie alerts and safety tips. Follow local news and emergency broadcasts regularly.",
-        "imageUrl": "/assets/custom/img/informed.png",
+        "imageUrl": "/assets/custom/img/icon/informed.png",
         "imageAlt": "Information"
       }
+    ]
+  },
+  "finalSection": {
+    "heading": "Act Now Before It's Too Late!",
+    "content": [
+        "How prepared are you for a reanimation event? According to a 2019 study by YouGov, **86% of Americans reported not having a plan for what they would do in the event of a zombie outbreak.** [Source](https://d3nkl3psvxxpe9.cloudfront.net/documents/Zombie-Plans-Data.pdf)",
+        "Don't wait for the zombie apocalypse to catch you off guard. Prepare today and ensure your safety and survival. Connect with local zombie preparedness organizations and participate in community drills."
     ],
-    "finalSection": {
-      "heading": "Act Now Before It's Too Late!",
-      "content": "Don't wait for the zombie apocalypse to catch you off guard. Prepare today and ensure your safety and survival. Connect with local zombie preparedness organizations and participate in community drills.",
-      "actionLabel": "Get Prepared",
-      "actionLink": "/get-prepared"
-    }
+    "actionLabel": "Get Prepared",
+    "actionLink": "/preparedness101"
   }
-  
+}

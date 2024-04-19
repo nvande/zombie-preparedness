@@ -1,28 +1,28 @@
 import React from "react";
-
 import Page from "../components/Page/Page";
 import Section from "../components/Section/Section";
 import HeroSection from "../components/Section/HeroSection";
-import GraphicListSection from "../components/Section/GraphicItemSection";
+import GraphicItemSection from "../components/Section/GraphicItemSection";
 
 import pageData from './HomepageData.json';
+
+import {
+  HeroSectionProps,
+  ContentSectionProps,
+  GraphicItemSectionProps
+} from "../types/types";
 
 const Homepage: React.FC = () => {
   return (
     <Page>
       <HeroSection
-        heading={pageData.heroSection.heading}
-        subheading={pageData.heroSection.subheading}
-        description={pageData.heroSection.description}
-        ctaLabel={pageData.heroSection.ctaLabel}
-        ctaLink={pageData.heroSection.ctaLink}
+        {...pageData.heroSection as HeroSectionProps}
       />
-      <GraphicListSection items={pageData.graphicListItems} />
+      <GraphicItemSection 
+        {...pageData.graphicItemSection as GraphicItemSectionProps}
+      />
       <Section
-        heading={pageData.finalSection.heading}
-        content={pageData.finalSection.content}
-        actionLabel={pageData.finalSection.actionLabel}
-        actionLink={pageData.finalSection.actionLink}
+        {...pageData.finalSection as ContentSectionProps}
       />
     </Page>
   );

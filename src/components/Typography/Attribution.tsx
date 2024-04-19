@@ -1,21 +1,54 @@
-import React from 'react';
+import React from "react";
 
 type AttributionProps = {
   author?: string;
-  year?: string;
+  date?: string;
   title?: string;
   source?: string;
+  type?: string;
+  copyright?: string;
 };
 
-const Attribution: React.FC<AttributionProps> = ({ author, year, title, source }) => {
+const Attribution: React.FC<AttributionProps> = ({
+  author,
+  date,
+  title,
+  source,
+  type,
+  copyright,
+}) => {
   return (
-    <div className="usa-prose">
+    <div className="usa-prose float-right maxw-full font-serif-3xs">
       <p className="citation">
-        {author && `${author}`}
-        {year && ` (${year})`}
-        {title && `. <em>${title}</em>`}
-        {source && ` Retrieved from `}
-        {source && <a href={source}>{source}</a>}
+        {author && <span>{author}</span>}
+        {date && (
+          <>
+            {" "}
+            <span>{date}</span>
+          </>
+        )}
+        {title && (
+          <>
+            {". "}
+            <em>{title}</em>
+          </>
+        )}
+        {source && `. Retrieved from `}
+        {source && (
+          <a href={source} style={{ wordWrap: "break-word" }}>
+            {source}
+          </a>
+        )}
+        {source && type && (
+          <>
+            <span>{` [${type}]`}</span>
+          </>
+        )}
+        {copyright && (
+          <>
+            <strong>Copyright:</strong> <span>{copyright}</span>
+          </>
+        )}
       </p>
     </div>
   );
