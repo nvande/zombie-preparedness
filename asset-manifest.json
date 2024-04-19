@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.39dacc0f.css",
-    "main.js": "./static/js/main.1e090877.js",
+    "main.js": "./static/js/main.7f1292b7.js",
     "static/media/workshop.jpg": "./static/media/workshop.69037de865d8cfc4d602.jpg",
     "static/media/farmhouse.jpg": "./static/media/farmhouse.02a85507c5849b8de38f.jpg",
     "static/media/drill.jpg": "./static/media/drill.3ef03ffac5c438afb0a4.jpg",
@@ -69,10 +69,10 @@
     "static/media/add.svg": "./static/media/add.15fb83c243810d04ccca.svg",
     "static/media/remove.svg": "./static/media/remove.4f51f2cc5b62b5d02abe.svg",
     "main.39dacc0f.css.map": "./static/css/main.39dacc0f.css.map",
-    "main.1e090877.js.map": "./static/js/main.1e090877.js.map"
+    "main.7f1292b7.js.map": "./static/js/main.7f1292b7.js.map"
   },
   "entrypoints": [
     "static/css/main.39dacc0f.css",
-    "static/js/main.1e090877.js"
+    "static/js/main.7f1292b7.js"
   ]
 }
