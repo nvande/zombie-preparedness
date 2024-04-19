@@ -15,24 +15,24 @@ const pageData = {
     "heading": "On this page",
     "items": [
       {
-        "link": "/#/preparedness101#EmergencyContacts",
+        "link": "/zombie-preparedness/#/preparedness101#EmergencyContacts",
         "beforeText": "Know your community’s ",
         "textLink": "Emergency Contacts"
       },
       {
-        "link": "/#/preparedness101#EmergencyPlan",
+        "link": "/zombie-preparedness/#/preparedness101#EmergencyPlan",
         "beforeText": "If you are under a Zombie Apocalypse Warning, make an ",
         "textLink": "Emergency Plan",
         "afterText": " right away."
       },
       {
-        "link": "/#/preparedness101#EmergencySupplies",
+        "link": "/zombie-preparedness/#/preparedness101#EmergencySupplies",
         "beforeText": "Gather ",
         "textLink": "Emergency Supplies",
         "afterText": " for your home and your car."
       },
       {
-        "link": "/#/preparedness101#TaskForce",
+        "link": "/zombie-preparedness/#/preparedness101#TaskForce",
         "beforeText": "Sign up for your community’s ",
         "textLink": "Zombie Task Force"
       }
@@ -188,7 +188,7 @@ const pageData = {
     "buttons": [
       {
         "label": "Zombie Task Force Login",
-        "url": "/#/signup#create"
+        "url": "/zombie-preparedness/#/signup#create"
       }
     ],
     "id": "TaskForce"

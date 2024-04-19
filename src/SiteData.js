@@ -4,8 +4,8 @@ const siteData = {
     "alert": {
         "heading": "Zombie Preparedness Alert in effect: ",
         "content": [
-            "[Ready emergency supplies](/#/preparedness101#EmergencySupplies)",
-            "[Prepare emergency plan](/#/preparedness101#EmergencyPlan)"
+            "[Ready emergency supplies](/zombie-preparedness/#/preparedness101#EmergencySupplies)",
+            "[Prepare emergency plan](/zombie-preparedness/#/preparedness101#EmergencyPlan)"
         ]
     },
     "title": "US Department of Supernatural Defense",
@@ -13,29 +13,29 @@ const siteData = {
     "sections": [
         {
             "label": "Home",
-            "link": "/"
+            "link": "/zombie-preparedness"
         },
         {
             "label": "Zombie Preparedness 101",
-            "link": "/#/preparedness101"
+            "link": "/zombie-preparedness/#/preparedness101"
         },
         {
             "label": "Task Force Sign-up",
-            "link": "/#/signup"
+            "link": "/zombie-preparedness/#/signup"
         }
     ],
     "primaryLinks:": [
         {
             "label": "Home",
-            "href": "/#/"
+            "href": "/zombie-preparedness"
         },
         {
             "label": "Zombie Preparedness 101",
-            "href": "/#/preparedness101"
+            "href": "/zombie-preparedness/#/preparedness101"
         },
         {
             "label": "Task Force Sign-up",
-            "href": "/#/signup"
+            "href": "/zombie-preparedness/#/signup"
         }
     ],
     "socialLinks": [

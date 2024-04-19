@@ -8,13 +8,13 @@ describe("SummaryBox", () => {
     {
       beforeText: "Visit ",
       textLink: "our homepage",
-      linkId: "homepage",
+      link: "/homepage",
       afterText: " for more details."
     },
     {
       beforeText: "Check out ",
       textLink: "our services",
-      linkId: "services",
+      link: "/services",
       afterText: " page."
     }
   ];
@@ -38,8 +38,8 @@ describe("SummaryBox", () => {
       expect(thirdItem).toBeInTheDocument();
       
       // Check link within the text
-      const link = screen.getByRole("link", { name: item.textLink });
-      expect(link).toHaveAttribute("href", `#${item.linkId}`);
+      const link = screen.getByText(item.textLink);
+      expect(link).toHaveAttribute("href", `${item.link}`);
     });
   });
 
