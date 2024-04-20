@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zombie-preparedness/static/css/main.4faa39b1.css",
-    "main.js": "/zombie-preparedness/static/js/main.64f3863e.js",
+    "main.js": "/zombie-preparedness/static/js/main.126f2e6a.js",
     "static/media/usdsd_logo.png": "/zombie-preparedness/static/media/usdsd_logo.42cc32f81d6b03ab2671.png",
     "static/media/taskforce.jpg": "/zombie-preparedness/static/media/taskforce.63822dd30753537068b0.jpg",
     "static/media/workshop.jpg": "/zombie-preparedness/static/media/workshop.61db837b60a6c93816bc.jpg",
@@ -48,11 +48,12 @@
     "static/media/facebook.svg": "/zombie-preparedness/static/media/facebook.df0eb8125abbd4f3bb041de109447fdb.svg",
     "static/media/rss_feed.svg": "/zombie-preparedness/static/media/rss_feed.fab7738b78b5397adad0fad3ebeb7177.svg",
     "static/media/file.svg": "/zombie-preparedness/static/media/file.7e80f971a49227f49f7e.svg",
+    "static/media/cancel.svg": "/zombie-preparedness/static/media/cancel.24f33392d0c3447b94f909af41b86da3.svg",
     "static/media/launch--white.svg": "/zombie-preparedness/static/media/launch--white.3dbeb02a26b146b9e918.svg",
     "static/media/error--white.svg": "/zombie-preparedness/static/media/error--white.7f8e755b649a0ca72ce5.svg",
     "static/media/launch.svg": "/zombie-preparedness/static/media/launch.152ec273c24f4fa5e63d.svg",
     "static/media/unfold_more.svg": "/zombie-preparedness/static/media/unfold_more.07df1f54ba8982f64bff.svg",
-    "static/media/check_circle.svg": "/zombie-preparedness/static/media/check_circle.923b3f2b329f1d5dafd1.svg",
+    "static/media/check_circle.svg": "/zombie-preparedness/static/media/check_circle.923b3f2b329f1d5dafd1ae45aa415504.svg",
     "static/media/calendar_today.svg": "/zombie-preparedness/static/media/calendar_today.a1af7eb3d190d96bab4f.svg",
     "static/media/check--blue-60v.svg": "/zombie-preparedness/static/media/check--blue-60v.0cd5697e7b293b7a2666.svg",
     "static/media/close.svg": "/zombie-preparedness/static/media/close.e950e71a69cf4464f585c220a034a0d0.svg",
@@ -69,10 +70,10 @@
     "static/media/add.svg": "/zombie-preparedness/static/media/add.15fb83c243810d04ccca.svg",
     "static/media/remove.svg": "/zombie-preparedness/static/media/remove.4f51f2cc5b62b5d02abe.svg",
     "main.4faa39b1.css.map": "/zombie-preparedness/static/css/main.4faa39b1.css.map",
-    "main.64f3863e.js.map": "/zombie-preparedness/static/js/main.64f3863e.js.map"
+    "main.126f2e6a.js.map": "/zombie-preparedness/static/js/main.126f2e6a.js.map"
   },
   "entrypoints": [
     "static/css/main.4faa39b1.css",
-    "static/js/main.64f3863e.js"
+    "static/js/main.126f2e6a.js"
   ]
 }
