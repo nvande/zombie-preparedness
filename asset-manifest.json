@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zombie-preparedness/static/css/main.4faa39b1.css",
-    "main.js": "/zombie-preparedness/static/js/main.126f2e6a.js",
+    "main.js": "/zombie-preparedness/static/js/main.caeb03ad.js",
     "static/media/usdsd_logo.png": "/zombie-preparedness/static/media/usdsd_logo.42cc32f81d6b03ab2671.png",
     "static/media/taskforce.jpg": "/zombie-preparedness/static/media/taskforce.63822dd30753537068b0.jpg",
     "static/media/workshop.jpg": "/zombie-preparedness/static/media/workshop.61db837b60a6c93816bc.jpg",
@@ -70,10 +70,10 @@
     "static/media/add.svg": "/zombie-preparedness/static/media/add.15fb83c243810d04ccca.svg",
     "static/media/remove.svg": "/zombie-preparedness/static/media/remove.4f51f2cc5b62b5d02abe.svg",
     "main.4faa39b1.css.map": "/zombie-preparedness/static/css/main.4faa39b1.css.map",
-    "main.126f2e6a.js.map": "/zombie-preparedness/static/js/main.126f2e6a.js.map"
+    "main.caeb03ad.js.map": "/zombie-preparedness/static/js/main.caeb03ad.js.map"
   },
   "entrypoints": [
     "static/css/main.4faa39b1.css",
-    "static/js/main.126f2e6a.js"
+    "static/js/main.caeb03ad.js"
   ]
 }
