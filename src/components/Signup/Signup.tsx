@@ -99,7 +99,7 @@ const Signup: React.FC<SignupProps> = ({ formConfig, sidebarConfig, id }) => {
             {sidebarConfig.content.map((item, index) => (
               <div key={index}>
                 {item.title && <h4 className="usa-heading">{item.title}</h4>}
-                <p className="margin-y-3">{parseMarkdown(item.text)}</p>
+                <div className="margin-y-3">{parseMarkdown(item.text)}</div>
                 {item.list && (
                   <ul>
                     {item.list.map((listItem, idx) => (

@@ -22,7 +22,8 @@ const Header: React.FC<HeaderProps> = ({
   };
 
   const isActive = (path: string) => {
-    return path === pathname;
+    // workaround because of hash routes for gh-pages
+    return (pathname === "/") ? path === "/zombie-preparedness" : path.includes(pathname);
   };
 
   return (
