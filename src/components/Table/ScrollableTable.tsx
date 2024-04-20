@@ -16,7 +16,7 @@ const ScrollableTable: React.FC<ScrollableTableProps> = ({
   const headers = content.length > 0 ? Object.keys(content[0]) : [];
 
   return (
-    <div className="grid-container margin-bottom-10">
+    <div className="margin-bottom-10">
       {id && <Anchor id={id} />}
       {title && <h3 className="font-heading-lg">{title}</h3>}
       <div className="usa-table-container--scrollable" tabIndex={0}>

@@ -22,12 +22,10 @@ describe("SummaryBox", () => {
   it("renders the heading and list items correctly", () => {
     render(<SummaryBox heading={heading} items={items} />);
 
-    // Check heading
     expect(screen.getByText(heading)).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: heading })).toBeInTheDocument();
 
-    // Check items
-    items.forEach((item, index) => {
+    items.forEach((item) => {
       const firstItem = screen.getByText(item.beforeText.trim());
       expect(firstItem).toBeInTheDocument();
 
@@ -37,7 +35,6 @@ describe("SummaryBox", () => {
       const thirdItem = screen.getByText(item.afterText.trim());
       expect(thirdItem).toBeInTheDocument();
       
-      // Check link within the text
       const link = screen.getByText(item.textLink);
       expect(link).toHaveAttribute("href", `${item.link}`);
     });

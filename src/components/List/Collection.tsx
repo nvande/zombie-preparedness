@@ -6,7 +6,7 @@ import { CollectionProps } from "../../types/types";
 
 const Collection: React.FC<CollectionProps> = ({ title, content, id }) => {
   return (
-    <div className="grid-container margin-bottom-8">
+    <div className="margin-bottom-8">
       {id && <Anchor id={id}/>}
       <h3 className="site-preview-heading margin-top-0">{title}</h3>
       <ul className="usa-collection width-full">
