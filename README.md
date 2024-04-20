@@ -1,5 +1,7 @@
 # Zombie Preparedness
 
+https://nvande.github.io/zombie-preparedness/
+
 Zombie-preparedness is a React application built for demonstration purposes. It utilizes the U.S. Web Design System (USWDS) for design implementation. Other features include responsive design, JSON encoded page content with a markup preprocessor to allow for rapid changes to page content and structure, and near full test-coverage for the entire application.
 
 ## Getting started
